@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="calculator-container">
+        <div class="textfield">
+          <input id="result" readonly value="" />
+        </div>
+        <div class="pad">
+          <div class="left-pad">
+            <div class="options">
+              <div class="btn-number" value="AC">AC</div>
+              <div class="btn-number" value="backspace">
+                <span class="material-icons">backspace</span>
+              </div>
+              <div class="btn-number" value="%">%</div>
+            </div>
+            <div class="numbers">
+              <div class="btn-number" value="7">7</div>
+              <div class="btn-number" value="8">8</div>
+              <div class="btn-number" value="9">9</div>
+              <div class="btn-number" value="4">4</div>
+              <div class="btn-number" value="5">5</div>
+              <div class="btn-number" value="6">6</div>
+              <div class="btn-number" value="1">1</div>
+              <div class="btn-number" value="2">2</div>
+              <div class="btn-number" value="3">3</div>
+              <div style="grid-column-start: 2" class="btn-number" value="0">0</div>
+              <div class="btn-number" value=".">.</div>
+            </div>
+          </div>
+          <div class="right-pad">
+            <div class="operators">
+              <div class="btn-number" value="÷">÷</div>
+              <div class="btn-number" value="x">x</div>
+              <div class="btn-number" value="-">-</div>
+              <div class="btn-number" value="+">+</div>
+              <div class="btn-number" value="=">=</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
